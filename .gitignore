@@ -129,4 +129,7 @@ dmypy.json
 .pyre/
 
 # Processed Data
-.ProcessedData/
+ProcessedData/
+
+#.idea files
+.idea/
