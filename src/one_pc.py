@@ -89,7 +89,7 @@ def main():
                     i += 1
             print(matrix)
         i = 0
-        directories = sys.argv[4]
+        directories = sys.argv[3]
         for subdir, dirs, files in os.walk(r'{}'.format(directories)):
             for file in files:
                 print(file)
